@@ -177,19 +177,24 @@ var Content = React.createClass({
             timeout: 3000,
             data: this.props.item.example_body,
 
-            success: function( response ){
+            success: function( response1 ){
+                console.log("ajax",response1);
+                var response2=JSON.parse(response1);
 
                 // Put the plain text in the PRE tag.
-                console.log( "ok:", response );
-                _this.props.item.example_result=response;
+                console.log( "ok:", response2 );
+                console.log( "data", response2.data );
+                console.log( "sid", response2.data.sid );
+                _this.props.item.example_result=response2;
 
 
-                if (response.data&&response.data.sid){
-                    Config.sessionid=response.data.sid;
+                if (response2.data&&response2.data.sid){
+                    Config.sessionid=response2.data.sid;
                 }
 
+                console.log( "Config.sessionid", Config.sessionid );
                 _this.setState({
-                    rst:response,
+                    rst:response2,
 
                 });
 
@@ -221,17 +226,7 @@ var Content = React.createClass({
     },
 
     render: function() {
-        //this.props.item.example_body="22";
 
-
-
-/*
-
-        this.setState({
-            body:this.props.item.example_body,
-
-        });
-        */
         console.log("this.props.item example_body",this.props.item.example_body);
 
         console.log("this.state.body",this.state.body);
@@ -336,8 +331,6 @@ var App = React.createClass({
     },
     render: function() {
         return (
-
-
             <div id="wrapper">
                 <Navigation itemSelected={this.setSelectedItem} activeUrl={this.state.activeNavigationUrl} items={this.state.navigationItems}/>
                 <div id="page-content-wrapper">
@@ -360,5 +353,4 @@ var App = React.createClass({
 });
 
 
-React.render(<App />, document.getElementById('App'));
-//React.render(<Navigation />, document.getElementById('sidebar-wrapper'));
+ReactDOM.render(<App />, document.getElementById('App'));

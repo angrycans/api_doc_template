@@ -3,19 +3,19 @@
 	'use strict';
 
 	$.fn.jJsonViewer = function(jjson, options) {
-		return this.each( function() {
-			var self = $(this);
-			if (typeof jjson == 'string') {
-				self.data('jjson', jjson);
-			}
-			else if(typeof jjson == 'object') {
-				self.data('jjson', JSON.stringify(jjson))
-			}
-			else {
-				self.data('jjson', '');
-			}
-			new JJsonViewer(self, options);
-		});
+    return this.each( function() {
+    	var self = $(this);
+      	if (typeof jjson == 'string') {
+    			self.data('jjson', jjson);
+      	}
+      	else if(typeof jjson == 'object') {
+    			self.data('jjson', JSON.stringify(jjson))
+      	}
+      	else {
+    			self.data('jjson', '');
+      	}
+      	new JJsonViewer(self, options);
+    });
 	};
 
 	function JJsonViewer(self, options) {
@@ -52,12 +52,12 @@
 
 	function createElement(key, value, type, expanderClasses) {
 		var klass = 'object',
-			open = '{',
-			close = '}';
+        	open = '{',
+        	close = '}';
 		if ($.isArray(value)) {
 			klass = 'array';
-			open = '[';
-			close = ']';
+      		open = '[';
+      		close = ']';
 		}
 		if(value === null) {
 			return '<li><span class="key">"' + encode(key) + '": </span><span class="null">"' + encode(value) + '"</span></li>';
