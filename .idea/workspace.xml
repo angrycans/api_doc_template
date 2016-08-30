@@ -2,78 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfcab1e-79ac-497d-abb7-f2d37b36c0dd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/dist/metisMenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/dist/metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/dist/metisMenu.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/dist/metisMenu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/src/metisMenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/src/metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/test/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/test/hover.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/test/metisFolder.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/test/metisFolder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/test/mini.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/test/mini.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/metisMenu/test/zurb.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/build/JSXTransformer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/build/react-with-addons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/build/react-with-addons.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/build/react.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/build/react.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-commonjs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-commonjs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-commonjs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-commonjs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-jsx-external/example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-jsx-external/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-jsx-harmony/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-jsx-precompile/build/example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-jsx-precompile/example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-jsx-precompile/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic-jsx/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/basic/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/jquery-bootstrap/css/example.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/jquery-bootstrap/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/jquery-bootstrap/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/jquery-bootstrap/thirdparty/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/jquery-bootstrap/thirdparty/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/jquery-mobile/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/jquery-mobile/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/jquery-mobile/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/quadratic/example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/quadratic/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/server-rendering/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/server-rendering/jsapp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/server-rendering/jsapp/src/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/server-rendering/reactserver/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/server-rendering/reactserver/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/server-rendering/webapp/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/server-rendering/webapp/static/bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/shared/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/shared/thirdparty/console-polyfill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/shared/thirdparty/es5-sham.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/shared/thirdparty/es5-shim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/shared/thirdparty/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/transitions/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-0.13.3/examples/transitions/transition.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rest.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/bootstrap/bootstrap.min.js" afterPath="$PROJECT_DIR$/components/bootstrap/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/jjsonviewer.css" afterPath="$PROJECT_DIR$/components/jjsonviewer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/jjsonviewer.js" afterPath="$PROJECT_DIR$/components/jjsonviewer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/components/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/metisMenu/metisMenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/metisMenu/metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/metisMenu/metisMenu.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/metisMenu/metisMenu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/metisMenu/metisMenu.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/config.js" afterPath="$PROJECT_DIR$/conf/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
     </list>
@@ -94,8 +30,60 @@
   <component name="FavoritesManager">
     <favorites_list name="api_doc_template" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="browser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/babel/browser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1332">
+              <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/conf/config.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -104,10 +92,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="977" />
+    <option name="x" value="1605" />
+    <option name="y" value="37" />
+    <option name="width" value="1440" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -134,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,10 +141,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api_doc_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api_doc_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api_doc_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api_doc_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,6 +179,71 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="$PROJECT_DIR$/../../node/nvm/versions/node/v5.10.1/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/api_doc_template/index.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -175,32 +256,33 @@
       <option name="presentableId" value="Default" />
       <updated>1463619981161</updated>
       <workItem from="1463619983136" duration="227000" />
+      <workItem from="1472528453442" duration="262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227000" />
+    <option name="totallyTimeSpent" value="489000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1920" height="977" extended-state="6" />
-    <editor active="false" />
+    <frame x="1605" y="37" width="1440" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -209,5 +291,39 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/components/babel/browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

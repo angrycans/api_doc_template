@@ -1,5 +1,95 @@
 
+var NavigationDir = React.createClass({
+    getInitialState: function() {
+        return {expand:false};
+    },
+    componentDidMount: function() {
+        console.log("metismenu init");
+        $("#menu").metisMenu();
+        // setTimeout(function() {
+        //     console.log("metismenu init");
+        //     $("#menu").metisMenu();
+        // }, 1000)
+    },
+    onClick: function() {
+        //this.props.itemSelected(this.props.item);
 
+        console.log("NavigationDir onclick",this.props);
+    },
+    setSelectedItem: function(item) {
+        var _this = this;
+        this.props.activeUrl=item.url;
+
+        this.props.itemSelected(item);
+
+        console.log("Navigation setSelectedItem 2",item,this.props.activeUrl,this.state.activeNavigationUrl);
+    },
+    render: function() {
+        var _this = this;
+
+
+
+        var items = this.props.items.map(function(item,i) {
+           // console.log(item);
+
+            var subitems=item.list.map(function(subitem,subi) {
+                return (
+
+                    <NavigationItem
+                        idx={subi+1}
+                        item={subitem}
+                        itemSelected={_this.setSelectedItem}
+                        selected={subitem.url === _this.props.activeUrl}
+                    />
+
+                    // <ul onClick={_this.onClick} className={_this.props.selected ? "selected" : ""}>
+                    //     <a >{i} - {item.title}</a>
+                    // </ul>
+
+                );
+            });
+            return (
+
+                        <li class="active">
+                            <a href="#" aria-expanded="true">{i}-{item.title}</a>
+                            <ul aria-expanded="true">
+                                {subitems}
+                            </ul>
+                        </li>
+
+                    // <ul onClick={_this.onClick} className={_this.props.selected ? "selected" : ""}>
+                    //     <a >{i} - {item.title}</a>
+                    // </ul>
+
+            );
+        });
+
+        return (
+
+            <div id="sidebar-wrapper">
+
+
+
+                <ul className="sidebar-nav" activeUrl="">
+                    <li className="sidebar-brand">
+
+                        API List
+
+                    </li>
+                    <ul class="metismenu" id="menu">
+
+                            {items}
+                    </ul>
+                    <li className="sidebar-brand">
+
+                        @CopyLeft cans
+
+                    </li>
+                </ul>
+            </div>
+        );
+    }
+});
 
 var NavigationItem = React.createClass({
     onClick: function() {
@@ -166,6 +256,8 @@ var Content = React.createClass({
 
 
         console.log( "click submit post session", Config.sessionid);
+
+        console.log( "click submit post props item", this.props.item);
         var _this=this;
         $.ajax({
             type: this.props.item.method,
@@ -179,12 +271,11 @@ var Content = React.createClass({
 
             success: function( response1 ){
                 console.log("ajax",response1);
-                var response2=JSON.parse(response1);
+                //var response2=JSON.parse(response1);
 
+								var response2=response1;
                 // Put the plain text in the PRE tag.
-                console.log( "ok:", response2 );
-                console.log( "data", response2.data );
-                console.log( "sid", response2.data.sid );
+             
                 _this.props.item.example_result=response2;
 
 
@@ -315,7 +406,7 @@ var Content = React.createClass({
 
 
 
-var App = React.createClass({
+var App2 = React.createClass({
     componentDidMount: function() {
 
     },
@@ -353,4 +444,43 @@ var App = React.createClass({
 });
 
 
+var App = React.createClass({
+    componentDidMount: function() {
+
+    },
+    getInitialState: function() {
+        return ({
+            activeNavigationUrl: "",
+            navigationDirs: NavigationListDIRDATA,
+            selectedItem: {},
+            config:Config
+            //storyItems: [],
+            // title: "Please select a sub"
+        });
+    },
+    render: function() {
+        return (
+            <div id="wrapper">
+                <NavigationDir itemSelected={this.setSelectedItem}  items={this.state.navigationDirs}/>
+                <div id="page-content-wrapper">
+                    <Content className="container-fluid" item={this.state.selectedItem} config={this.state.config}/>
+
+
+
+                </div>
+
+            </div>
+
+        );
+    },
+    setSelectedItem: function(item) {
+        var _this = this;
+        this.setState({
+            selectedItem:item,
+            activeNavigationUrl: item.url,
+        });
+        console.log("app setSelectedItem",this.state.selectedItem);
+    }
+});
+// ReactDOM.render(<ReactMetismenu content={content} />, document.getElementById('App'));
 ReactDOM.render(<App />, document.getElementById('App'));
